@@ -1,0 +1,51 @@
+.cards {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: flex-start;
+}
+.card {
+ flex: 0 0 300px;
+ margin: 10px;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.card img {
+ max-width: 100%;
+}
+.card .person img {
+    display: inline;
+    border-radius: 60%;
+    max-width: 25%;
+    float: left;
+    padding: 12px;
+}
+.card .person h4 {
+    display: inline;
+    font-size: 15px;
+    float: left;
+}
+.card .person span {
+    color: #ccc;
+}
+
+.card .text {
+ padding: 0 20px 20px;
+}
+.card .text a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: turquoise;
+}
+.card .text i {
+    float: right;
+    padding: 8px;
+}
+.card .text span {
+    color: #ccc;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+
